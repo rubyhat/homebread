@@ -7,11 +7,11 @@ export const PageNotFound = () => {
       <Container>
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
-            <Typography component="h2" variant="h1" marginBottom={2}>
+            <Typography component="h1" variant="h2" marginBottom={2}>
               Страница не найдена (404)
             </Typography>
             <Box marginBottom={1.5}>
-              <Typography component="p" variant="h3" marginBottom={1}>
+              <Typography component="h5" variant="h5" marginBottom={1}>
                 Что случилось?
               </Typography>
               <Typography component="p" variant="body1">
@@ -19,7 +19,7 @@ export const PageNotFound = () => {
               </Typography>
             </Box>
             <Box marginBottom={1.5}>
-              <Typography component="p" variant="h3" marginBottom={1}>
+              <Typography component="h5" variant="h5" marginBottom={1}>
                 Почему это произошло?
               </Typography>
               <Typography component="p" variant="body1">
@@ -31,7 +31,7 @@ export const PageNotFound = () => {
               </Typography>
             </Box>
             <Box marginBottom={1.5}>
-              <Typography component="p" variant="h3" marginBottom={1}>
+              <Typography component="h5" variant="h5" marginBottom={1}>
                 Что делать?
               </Typography>
               <Typography component="p" variant="body1" marginBottom={1.5}>
@@ -41,7 +41,7 @@ export const PageNotFound = () => {
                   component={Link}
                   to="/"
                   variant="body1"
-                  color="customColors.colorsBlue"
+                  color="blue"
                   sx={{ textDecoration: "underline" }}
                 >
                   главную страницу
@@ -60,7 +60,7 @@ export const PageNotFound = () => {
             >
               <Box
                 component="img"
-                src="/static/images/about/img-about-house.svg"
+                src="/static/images/img-page-not-found.svg"
                 alt="Page not found"
                 width={1}
               />
