@@ -1,3 +1,10 @@
+import { Box } from "@mui/material";
+import { HomeModule } from "../../modules/HomeModule";
+
 export const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Box className="section">
+      <HomeModule />
+    </Box>
+  );
 };
