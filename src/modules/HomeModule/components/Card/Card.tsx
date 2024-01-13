@@ -14,6 +14,7 @@ export const Card = ({ card }: CardProps) => {
         borderRadius: 2,
         border: "2px solid",
         borderColor: "var(--accent-color)",
+        maxWidth: "800px",
       }}
     >
       <Typography
@@ -80,6 +81,12 @@ export const Card = ({ card }: CardProps) => {
               {card.targetButton.text}
             </Box>
           </Box>
+          <Box
+            component="img"
+            src={card.img}
+            alt="bread"
+            sx={{ width: 1, borderRadius: 3, marginTop: 2 }}
+          />
         </Box>
       )}
     </Box>

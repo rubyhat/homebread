@@ -6,8 +6,8 @@ export const HomeHeader = () => {
     <Box>
       <Typography
         component="h1"
-        variant="h4"
-        sx={{ color: "var(--accent-color)" }}
+        variant="h5"
+        sx={{ color: "var(--accent-color)", fontWeight: 700 }}
       >
         Запись на Мастер Класс
       </Typography>
@@ -35,7 +35,7 @@ export const HomeHeader = () => {
           backgroundColor: "var(--accent-color)",
           width: 1,
           height: 4,
-          margin: "16px 0",
+          margin: "16px 0 8px",
           borderRadius: 2,
         }}
       />
