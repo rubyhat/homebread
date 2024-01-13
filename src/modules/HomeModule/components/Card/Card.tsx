@@ -6,6 +6,7 @@ interface CardProps {
   card: CardItem;
 }
 
+// todo: create button component
 export const Card = ({ card }: CardProps) => {
   return (
     <Box

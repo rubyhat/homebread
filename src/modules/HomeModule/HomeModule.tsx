@@ -1,6 +1,7 @@
 import { Container, Grid } from "@mui/material";
 import { HomeHeader } from "./components/HomeHeader";
 import { CardList } from "./components/CardList";
+import { HomeFooter } from "./components/HomeFooter";
 
 export const HomeModule = () => {
   return (
@@ -10,6 +11,9 @@ export const HomeModule = () => {
           <HomeHeader />
         </Grid>
         <CardList />
+        <Grid item xs={12}>
+          <HomeFooter />
+        </Grid>
       </Grid>
     </Container>
   );
