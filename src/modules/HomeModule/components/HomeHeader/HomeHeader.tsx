@@ -11,7 +11,7 @@ export const HomeHeader = () => {
       >
         Запись на Мастер Класс
       </Typography>
-      <Typography>
+      <Typography component="p">
         Меня зовут Татьяна и я научу Вас печь{" "}
         <Box component="span" sx={{ textDecoration: "underline" }}>
           вкусный и полезный
@@ -29,16 +29,16 @@ export const HomeHeader = () => {
         >
           Telegram
         </Box>
-        <Box
-          sx={{
-            backgroundColor: "var(--accent-color)",
-            width: 1,
-            height: 4,
-            margin: "16px 0",
-            borderRadius: 2,
-          }}
-        />
       </Typography>
+      <Box
+        sx={{
+          backgroundColor: "var(--accent-color)",
+          width: 1,
+          height: 4,
+          margin: "16px 0",
+          borderRadius: 2,
+        }}
+      />
     </Box>
   );
 };
